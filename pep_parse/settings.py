@@ -1,4 +1,8 @@
-from pep_parse.pipelines import RESULTS_DIR
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).parent.parent
+RESULTS_DIR = 'results'
 
 BOT_NAME = 'pep_parse'
 

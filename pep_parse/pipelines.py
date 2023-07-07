@@ -1,11 +1,9 @@
 import csv
 from collections import defaultdict
 from datetime import datetime as dt
-from pathlib import Path
 
+from pep_parse.settings import BASE_DIR, RESULTS_DIR
 
-BASE_DIR = Path(__file__).parent.parent
-RESULTS_DIR = 'results'
 
 HEADERS = ('Статус', 'Количество')
 TIME_FORMAT = '%Y-%m-%dT%H-%M-%S'
